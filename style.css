@@ -1,13 +1,13 @@
 @font-face {
-    font-family: "Product";
-    src: url("text/PRODUCT\ SANS\ REGULAR.TTF");
+    font-family: "ProductS";
+    src: url("text/PRODUCT\ SANS\ REGULAR.TTF") format("truetype");
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Product';
+    font-family: 'ProductS';
     scroll-behavior: smooth;
 }
 
@@ -173,7 +173,8 @@ p {
 }
 
 .hero-p span {
-    font-weight: bolder;
+    font-weight: bold;
+    letter-spacing: 1px;
     background: rgba(173, 216, 230, 0.178);
 }
 
@@ -245,6 +246,7 @@ button a {
 
 .about-p span {
     background: lightyellow;
+    
     border-radius: 3px;
     font-weight: bolder;
     color: #4e9ef8;
