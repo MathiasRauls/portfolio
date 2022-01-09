@@ -213,6 +213,7 @@ button a {
 
 .about-cont {
     display: grid;
+    flex-wrap: wrap;
     flex-direction: column;
     grid-template-columns: 1fr 1fr;
     justify-content: left;
@@ -222,7 +223,6 @@ button a {
     height: 90%;
     padding: 50px;
     color: #4e9ef8;
-
 }
 
 .about-right {
@@ -232,7 +232,8 @@ button a {
 }
 
 .about-img {
-    width: 80%;
+    width: 70%;
+    display: flex;
     transition: all .2s ease-in-out;
     border: solid white 10px;
     border-radius: 250px;
@@ -487,7 +488,7 @@ button a {
         opacity: 1;
         transition: all .2s ease-in-out;
         z-index: 99;
-        height: 40vh;
+        height: 60vh;
         font-size: 1.6rem;
     }
 
@@ -553,6 +554,16 @@ button a {
 
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* ABOUT */
+    .about-cont {
+        grid-template-columns: 1fr;
+    }
+
+    .about-img {
+        width: 50%;
+        margin: 25px 0 0 0;
     }
 
     /* HERO */
