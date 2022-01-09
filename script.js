@@ -49,8 +49,20 @@ const highlightMenu = () => {
         elem.classList.remove('highlight');
         return
     }
-
 }
 
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
+
+// Close Mobile Menu When Selection Clicked
+
+const hideMobileMenu = () => {
+    const menuBars = document.querySelector('.is-active');
+    if(window.innerWidth <= 940 && menuBars){
+        menu.classList.toggle('is-active');
+        menuLinks.classList.remove('active');
+    }
+}
+
+menuLinks.addEventListener('click', hideMobileMenu);
+navLogo.addEventListener('click', hideMobileMenu);
