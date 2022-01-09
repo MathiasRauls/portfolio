@@ -175,13 +175,7 @@ p {
 }
 
 .hero-p span {
-<<<<<<< HEAD
     font-weight: bold;
-=======
-    font-weight: italic;
-    letter-spacing: 1px;
-    background: rgba(173, 216, 230, 0.178);
->>>>>>> a728bf8de461c30f5bb029a38721db89febc543f
 }
 
 #about-btn {
