@@ -174,7 +174,7 @@ p {
 }
 
 .hero-p span {
-    font-weight: bold;
+    font-weight: italic;
     letter-spacing: 1px;
     background: rgba(173, 216, 230, 0.178);
 }
