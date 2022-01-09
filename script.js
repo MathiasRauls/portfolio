@@ -20,7 +20,6 @@ const highlightMenu = () => {
     const contMenu = document.querySelector('#cont-pg');
     let scrollPos = window.scrollY;
     let siteHeight = document.documentElement.scrollHeight;
-    console.log(scrollPos);
 
     // Adds highlights class to menu items
 

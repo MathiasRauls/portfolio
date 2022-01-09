@@ -170,6 +170,7 @@ p {
 
 .hero-p span {
     font-weight: bolder;
+    background: rgba(173, 216, 230, 0.178);
 }
 
 #about-btn {
@@ -239,6 +240,8 @@ button a {
 }
 
 .about-p span {
+    background: lightyellow;
+    border-radius: 3px;
     font-weight: bolder;
     color: #4e9ef8;
 }
@@ -357,7 +360,7 @@ button a {
 }
 
 .proj h1 {
-    margin: 0 20px;
+    text-align: center;
     justify-content: right;
     font-size: 2rem;
     font-weight: bold;
