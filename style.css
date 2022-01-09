@@ -9,6 +9,7 @@
     padding: 0;
     font-family: 'ProductS';
     scroll-behavior: smooth;
+    letter-spacing: 1px;
 }
 
 .navbar {
@@ -175,8 +176,6 @@ p {
 
 .hero-p span {
     font-weight: bold;
-    letter-spacing: 1px;
-    background: rgba(173, 216, 230, 0.178);
 }
 
 #about-btn {
@@ -247,10 +246,7 @@ button a {
 }
 
 .about-p span {
-    background: lightyellow;
-    
-    border-radius: 3px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #4e9ef8;
 }
 
