@@ -366,6 +366,7 @@ button a {
     justify-content: right;
     font-size: 2rem;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .proj p {
