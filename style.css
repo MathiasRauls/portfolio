@@ -178,7 +178,7 @@ p {
 }
 
 .hero-img:hover {
-    width: 61%;
+    transform: scale(1.05);
 }
 
 .hero-head {
@@ -307,6 +307,7 @@ button a {
 }
 
 .skill:hover {
+    transform: scale(1.05);
     background: rgb(57, 226, 57);
     animation: shake 1s ease-in-out infinite;
 }
@@ -333,11 +334,11 @@ button a {
 }
 
 .proj-cont {
-    display: grid;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     height: 90%;
     padding: 50px;
@@ -349,23 +350,23 @@ button a {
 }
 
 .proj {
-    margin: 20px 0;
+    margin: 20px 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     align-items: center;
     background: white;
     color: #438bdd;
     padding: 5px 25px;
     cursor: pointer;
     width: 300px;
-    height: 230px;
+    height: 380px;
     border-radius: 20px;
+    justify-content: center;
     transition: all .2s ease-in-out;
 }
 
 .proj:hover {
-    height: 260px;
+    transform: scale(1.2);
     background:#438bdd;
     color: white;
 }
@@ -399,13 +400,21 @@ button a {
 
 .proj a {
     margin: 0 5px 0;
+    padding: 5px;
     text-decoration: none;
     color: #4e9ef8;
     font-weight: bold;
 }
+.proj a:hover {
+    color: skyblue;
+}
 
 .proj hr {
     border: solid 2px #4e9ef8;
+    width: 100%;
+}
+
+.proj-prev {
     width: 100%;
 }
 
@@ -444,7 +453,7 @@ button a {
 }
 
 .contact-msg:hover {
-    width: 101%;
+    transform: scale(1.05);
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💬</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
