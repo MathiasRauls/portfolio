@@ -69,18 +69,18 @@ navLogo.addEventListener('click', hideMobileMenu);
 
 // Pop Up Boxes
 
-const chtrLink = document.querySelector('#chtr');
-const gitLink = document.querySelector('#git');
+// const chtrLink = document.querySelector('#chtr');
+// const gitLink = document.querySelector('#git');
 
-function showAlertChtr() {
-    var txt = "Chatrbox Site Is Undergoing Maintenance";
-    alert(txt);
-}
+// function showAlertChtr() {
+//     var txt = "Chatrbox Site Is Undergoing Maintenance";
+//     alert(txt);
+// }
 
-function showAlertGit() {
-    var txt = "Chatrbox Git Is Undergoing Maintenance";
-    alert(txt);
-}
+// function showAlertGit() {
+//     var txt = "Chatrbox Git Is Undergoing Maintenance";
+//     alert(txt);
+// }
 
-chtrLink.addEventListener('click', showAlertChtr);
-gitLink.addEventListener('click', showAlertGit);
+// chtrLink.addEventListener('click', showAlertChtr);
+// gitLink.addEventListener('click', showAlertGit);
