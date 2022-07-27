@@ -10,7 +10,7 @@ The straightforward yet enjoyable and interactive design of my project makes it 
 
 # How to Install and Run the Project
 
-Cehck out my site @ [https://www.im-mathias.com](https://www.im-mathias.com) 😉
+Check out my site @ [https://www.im-mathias.com](https://www.im-mathias.com) 😉
 
 # Credits
 
