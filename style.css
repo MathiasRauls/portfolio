@@ -24,7 +24,7 @@ html {
 }
 
 .navbar {
-    background: #4e9ef8;
+    background: #33439b;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -90,7 +90,7 @@ html {
 }
 
 .btn {
-    background-color:#4e9ef8;
+    background-color: transparent;
     color: white;
     font-weight: bold;
     font-size: 1rem;
@@ -112,11 +112,11 @@ html {
 }
 
 .btn:hover a {
-    color: #4e9ef8;
+    color: #33439b;
 }
 
 .btn:hover {
-    color: #4e9ef8;
+    color: #33439b;
     background-color: white;
     border: solid white 3px;
 }
@@ -138,7 +138,7 @@ p {
 }
 
 .highlight {
-    background: #438bdd;
+    background: #33439b;
     border-radius: 10px;
     padding: 10px 0;
     transition: all .2s ease-in-out;
@@ -147,7 +147,7 @@ p {
 /* //////////////////////////////////////////////////////////  HERO  ////////// */
 
 .hero {
-    background: #4e9ef8;
+    background: #33439b;
     padding: 200px 0
 }
 
@@ -221,6 +221,10 @@ p {
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🚀</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
+#beh-btn {
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>✨</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+
 button a {
     padding: 10px 10px;
 }
@@ -243,7 +247,7 @@ button a {
     margin: 0 auto;
     height: 90%;
     padding: 50px;
-    color: #4e9ef8;
+    color: #33439b;
 }
 
 .about-right {
@@ -259,14 +263,14 @@ button a {
 }
 
 .about-p {
-    color: #438bdd;
+    color: #33439b;
     text-align: justify;
     margin: 10px auto;
 }
 
 .about-p span {
     font-weight: bold;
-    color: #4e9ef8;
+    color: #33439b;
 }
 
 /* //////////////////////////////////////////////////////////  SKILL  ////////// */
@@ -287,7 +291,7 @@ button a {
 
 .skill-head {
     text-align: center;
-    color: #4e9ef8;
+    color: #33439b;
 }
 
 .skill p {
@@ -297,7 +301,7 @@ button a {
 
 .skill {
     text-align: center;
-    background: #4e9ef8;
+    background: #33439b;
     color: white;
     padding: 27px 20px;
     border-radius: 100px;
@@ -329,7 +333,7 @@ button a {
 /* //////////////////////////////////////////////////////////  PROJECTS  ////////// */
 
 .projs {
-    background: #4e9ef8;
+    background: #33439b;
     padding: 200px 0
 }
 
@@ -355,7 +359,7 @@ button a {
     flex-wrap: wrap;
     align-items: center;
     background: white;
-    color: #438bdd;
+    color: #33439b;
     padding: 5px 25px;
     cursor: pointer;
     width: 300px;
@@ -393,7 +397,7 @@ button a {
 
 .proj p {
     text-align: justify;
-    color: #438bdd;
+    color: #33439b;
     width: 100%;
     margin: 0 0 5px 0;
 }
@@ -402,7 +406,7 @@ button a {
     margin: 0 5px 0;
     padding: 5px;
     text-decoration: none;
-    color: #4e9ef8;
+    color: #33439b;
     font-weight: bold;
 }
 .proj a:hover {
@@ -410,7 +414,7 @@ button a {
 }
 
 .proj hr {
-    border: solid 2px #4e9ef8;
+    border: solid 2px #33439b;
     width: 100%;
 }
 
@@ -418,10 +422,15 @@ button a {
     width: 100%;
 }
 
+.logo-prev {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* //////////////////////////////////////////////////////////  CONTACT  ////////// */
 
 .contact {
-    background: #4e9ef8;
+    background: #33439b;
     padding: 300px 0;
 }
 
@@ -499,7 +508,7 @@ button a {
 /* //////////////////////////////////////////////////////////  MEDIA  ////////// */
 
 .foot {
-    background: #438bdd;
+    background: #1d2b7c;
     padding: 150px 0;
 }
 
@@ -646,7 +655,7 @@ button a {
     .hero {
         padding: 100px 0
     }
-    
+
     /* FOOT */
 
     .foot {
