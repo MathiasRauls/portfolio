@@ -257,15 +257,22 @@ button a {
 }
 
 .about-img {
-    width: 70%;
+    width: 50%;
     display: flex;
+    padding: 5% 0px;
+    border-radius: 20%;
     transition: all .2s ease-in-out;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>😍</text></svg>") 16 0,auto; /*!emojicursor.app*/
+}
+.about-img:hover {
+    transform: scale(1.05);
 }
 
 .about-p {
     color: #33439b;
     text-align: justify;
-    margin: 10px auto;
+    margin: 20px auto;
+    line-height: 155%;
 }
 
 .about-p span {
@@ -629,7 +636,7 @@ button a {
     }
 
     .about-img {
-        width: 50%;
+        width: 80%;
         margin: 25px 0 0 0;
     }
 
