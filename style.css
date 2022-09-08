@@ -427,12 +427,15 @@ button a {
 }
 
 .proj-prev {
+    padding-top: 20px;
     width: 100%;
 }
 
 .logo-prev {
-    width: 90%;
+    display: block;
+    width: 80%;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 /* //////////////////////////////////////////////////////////  CONTACT  ////////// */
