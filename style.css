@@ -403,11 +403,13 @@ button a {
 }
 
 .proj p {
+    font-weight: bold;
     padding: 20px 0;
-    text-align: justify;
+    text-align: center;
     color: #33439b;
     width: 100%;
     margin: 0 0 5px 0;
+    line-height: 125%;
 }
 
 .proj a {
