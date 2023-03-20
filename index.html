@@ -6,7 +6,9 @@
         <link rel="stylesheet" href="style.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>I'm Mathias</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="icon" type="image/x-icon" href="design/favicon.ico">
+        <script defer src="scroll.js"></script>
     </head>
     <body>
         <!-- Nav Bar -->
@@ -34,58 +36,64 @@
                 </ul>
             </div>
         </nav>
+
+
         <!-- Hero Section -->
         <section class="hero" id="home">
             <div class="hero-cont">
-                <div class="hero-left">
+                <div class="heros hidden-left">
                     <h1 class="hero-head">Hey, I'm Mathias</h1>
-                    <h3 class="hero-sub">Junior Web Developer | Graphic Designer</h3>
+                    <h3 class="hero-sub">Web Developer</h3>
                     <p class="hero-p">I am a <span>hard working</span> and <span>idea driven</span> Junior Developer with a strong background in Graphic Design and 3D Modeling.</p>
                     <div class="hero-btn-cont">
                         <button class="btn" id="about-btn"><a href="#about" id="learn">Learn More</a></button>
                         <button class="btn" id="proj-btn"><a href="#proj" id="proj-btn">Projects</a></button>
-                        <button class="btn" id="beh-btn"><a href="https://www.behance.net/mathiasrauls1" id="beh-btn">Behance</a></button>
+                        <button class="btn" id="beh-btn"><a target="_blank" href="https://www.behance.net/mathiasrauls1" id="beh-btn">Behance</a></button>
                     </div>
                 </div>
-                <div class="hero-right">
-                    <img src="3d/me.mobile.logo.png" alt="" class="hero-img">
+                <div class="heros hidden-right">
+                    <img src="3d/me-sq.png" alt="" class="hero-img">
                 </div>
             </div>
         </section>
 
         <!-- About Section -->
         <section class="about" id="about">
-            <div class="about-cont">
+            <div class="about-cont" >
                 <div class="about-left">
-                    <h1>About Me</h1>
-                    <p class="about-p">I am a <span>hardworking</span>, self starting, <span>Junior Web Developer</span> with <span>5+ years of design experience</span> working with a variety of many local businesses creating <span>branding material, logos, and design templates.</span> Although I am new to the tech industry I have a strong passion for learning and an incredible desire to build and design <span>user friendly</span>, and <span>highly efficient web applications.</span></p>
-                    <p class="about-p">Currently employed as a <span>Junior Web Developer at Disability Rights California, a non-profit law firm in Sacramento</span>. While working along side my communications team, I <span>created, updated, and tested various different web pages for public events, resources, and legal documents.</span> I helped <span>increase work productivity by 25%</span> while simultaneously <span>improving website traffic</span> by implementing signup pages and invite emails to promote all web events using <span>HTML, JavaScript and CSS in the Drupal framework</span>.
+                    <h1 class="hidden-down">About Me</h1>
+                    <p class="about-p hidden-left">I am a <span>hardworking</span>, self starting, <span> Web Developer</span> with <span>5+ years of design experience</span> working with a variety of many local businesses creating <span>branding material, logos, and design templates.</span> Although I am new to the tech industry I have a strong passion for learning and an incredible desire to build and design <span>user friendly</span>, and <span>highly efficient web applications.</span></p>
+                    <p class="about-p hidden-right">Currently employed as a <span>Web Developer at Disability Rights California, a non-profit law firm in Sacramento</span>. While working along side my communications team, I have <span>created, updated, and tested various different web pages for public events, webinars, email campaigns, and legal documents.</span> I helped <span>increase work productivity by 25%</span> while simultaneously <span>improving website traffic</span> by implementing signup pages and invite emails to promote all web events using <span>HTML, JavaScript and CSS in the Drupal framework</span>.
                     </p>
-                    <p class="about-p">Outside of work you can find me working on a few projects for school while also gaining real world experience <span>designing and building websites for local businesses.</span> As of late I have been working on a donation site for a non-profit horse rescue built in <span>Python with the Django framework</span>, and an <span>eCommerce site built with Next.js React and Sanity.</span></p>
+                    <p class="about-p hidden-left">Outside of work you can find me working on a few projects for school while also gaining real world experience <span>designing and building websites for local businesses.</span> As of late I have been working on a donation site for a non-profit horse rescue built in <span>Python with the Django framework</span>, and an <span>eCommerce site built with Next.js React and Sanity.</span></p>
 
                 </div>
-                <div class="about-right">
+                <div class="about-right hidden-up">
                     <img src="WebsitePic.jpg" alt="Picture of Mathias Oshea Rauls" class="about-img">
                 </div>
-                <div class="name-tag">
+                <div class="name-tag hidden-up">
                     <h3>Mathias Oshea Rauls</h3>
                 </div>
             </div>
         </section>
         <!-- Skills -->
         <section class="skills" id="about">
-            <h1 class="skill-head">Skill Sets</h1>
+            <h1 class="skill-head hidden-down">Skill Sets</h1>
             <div class="skill-cont">
                 <div class="skill">
                     <h3>Python</h3>
                     <p>3 yrs</p>
                 </div>
                 <div class="skill">
-                    <h3>JavaScript</h3>
+                    <h3>JS</h3>
                     <p>3 yr</p>
                 </div>
                 <div class="skill">
-                    <h3>HTML/CSS</h3>
+                    <h3>HTML</h3>
+                    <p>3 yrs</p>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
                     <p>3 yrs</p>
                 </div>
                 <div class="skill">
@@ -93,15 +101,7 @@
                     <p>3 yrs</p>
                 </div>
                 <div class="skill">
-                    <h3>C</h3>
-                    <p>1 yrs</p>
-                </div>
-                <div class="skill">
                     <h3>Django</h3>
-                    <p>2 yr</p>
-                </div>
-                <div class="skill">
-                    <h3>Drupal</h3>
                     <p>2 yr</p>
                 </div>
                 <div class="skill">
@@ -109,16 +109,24 @@
                     <p>1 yr</p>
                 </div>
                 <div class="skill">
-                    <h3>MailChimp</h3>
+                    <h3>C</h3>
                     <p>1 yr</p>
-                </div>
-                <div class="skill">
-                    <h3>WordPress</h3>
-                    <p>2 yr</p>
                 </div>
                 <div class="skill">
                     <h3>Flask</h3>
                     <p>1 yr</p>
+                </div>
+                <div class="skill">
+                    <h3>Drupal</h3>
+                    <p>2 yr</p>
+                </div>
+                <div class="skill">
+                    <h3>Mail<br/>Chimp</h3>
+                    <p>1 yr</p>
+                </div>
+                <div class="skill">
+                    <h3>Word<br/>Press</h3>
+                    <p>2 yr</p>
                 </div>
                 <div class="skill">
                     <h3>UI/UX</h3>
@@ -137,7 +145,7 @@
                     <p>5 yrs</p>
                 </div>
                 <div class="skill">
-                    <h3>MicroSoft Suite</h3>
+                    <h3>MS Suite</h3>
                     <p>7 yrs</p>
                 </div>
                 <div class="skill">
@@ -153,69 +161,66 @@
 
         <!-- Projects -->
         <section class="projs" id="proj">
-            <h1 class="proj-head">Projects</h1>
-            <div class="proj-cont">
-                <a href="https://github.com/MathiasRauls/MooviSearch">
-                    <div class="proj" href="https://github.com/MathiasRauls/MooviSearch">
+            <h1 class="proj-head hidden-down">Projects</h1>
+            <ul class="proj-cont">
+                <li class="proj hidden-up">
+                    <a target="_blank" href="https://github.com/MathiasRauls/MooviSearch">
                         <h1>Moovi Search</h1>
-                        <img src="moovi.png" class="proj-prev"></a>
+                        <img src="moovi.png" class="proj-prev">
                         <p>A place where any and all movies are one search away.</p>
-                        <hr>
-                        <a id="git" href="https://github.com/MathiasRauls/MooviSearch">GitHub</a>
-                    </div>
-                </a>
-                <a href="https://www.chatrbox.dev">
-                    <div class="proj" href="https://www.chatrbox.dev">
-                        <h1>Chatrbox</h1>
-                        <img src="design/chatrbox-prev.PNG" class="proj-prev"></a>
-                        <p>Chatrbox is a block chain solution providing scalable communication channels for all autonomous vehicles and all signal frequencies.</p>
-                        <hr>
-                        <a id="git" href="https://github.com/MathiasRauls/chatrbox">GitHub</a>
-                        <a id="chtr" href="https://www.chatrbox.dev">Chatrbox.dev</a>
-                    </div>
-                </a>
-                <a href="https://www.behance.net/mathiasrauls1">
-                    <div class="proj" href="https://www.behance.net/mathiasrauls1">
+                        <hr class="split">
+                        <a class="proj-link" id="git" target="_blank" href="https://github.com/MathiasRauls/MooviSearch">GitHub</a>
+                    </a>
+                </li>
+
+                <li class="proj hidden-up">
+                    <a target="_blank" href="https://www.behance.net/mathiasrauls1">
                         <h1>Behance</h1>
                         <img src="behance.png" alt="Behance Logo" class="logo-prev">
                         <!-- <p style="color: red; text-align: center;">Editing Portfolio</p> -->
                         <p>This is my portfolio showcasing some of my skills in Graphic Design, 3D Modeling, and Product Design.</p>
-                        <hr>
-                        <a id="behance" href="https://www.behance.net/mathiasrauls1">Behance</a>
-                    </div>
-                </a>
-                <a href="https://github.com/MathiasRauls/EldenRingAuctions">
-                    <div class="proj" href="https://github.com/MathiasRauls/EldenRingAuctions">
+                        <hr class="split">
+                        <a class="proj-link" id="behance"  target="_blank" href="https://www.behance.net/mathiasrauls1">Behance</a>
+                    </a>
+                </li>
+
+                <li class="proj hidden-up">
+                    <a target="_blank" href="https://github.com/MathiasRauls/EldenRingAuctions">
                         <h1>Elden Ring Auctions</h1>
-                        <img src="eldenring.PNG" class="proj-prev"></a>
+                        <img src="eldenring.PNG" class="proj-prev">
                         <p>The incredibly cruel video game Elden Ring and the concept of NFT Marketplaces served as the inspiration for my e-commerce project site Elden Ring Auctions.</p>
-                        <hr>
-                        <a id="git" href="https://github.com/MathiasRauls/EldenRingAuctions">GitHub</a>
-                    </div>
-                </a>
-            </div>
+                        <hr class="split">
+                        <a class="proj-link" id="git"  target="_blank" href="https://github.com/MathiasRauls/EldenRingAuctions">GitHub</a>
+                    </a>
+                </li>
+            </ul>
         </section>
 
         <!-- Contact -->
         <section class="contact" id="contact">
             <div class="contact-cont">
-                <div class="left">
+                <div class="contacts hidden-left">
                     <h1>Hit Me Up</h1>
                     <h3>Mathias Oshea Rauls</h3>
                     <h3>mathiasrauls.main@gmail.com</h3>
-                    <button id="res" class="btn"><a id="res" href="MathiasRaulsWebDev2023.pdf">Resume</a></button>
-                    <button id="linkd" class="btn"><a id="linkd" href="https://www.linkedin.com/in/mathias-oshea-rauls">LinkedIn</a></button>
-                    <button id="email" class="btn"><a id="email" href="mailto:mathiasrauls.main@gmail.com?subject=ImMathias%20Email">Email</a></button>
+                    <button id="res" class="btn"><a id="res"  target="_blank" href="MathiasRaulsWebDev2023.pdf">Resume</a></button>
+                    <button id="linkd" class="btn"><a id="linkd"  target="_blank" href="https://www.linkedin.com/in/mathias-oshea-rauls">LinkedIn</a></button>
+                    <button id="email" class="btn"><a id="email"  target="_blank" href="mailto:mathiasrauls.main@gmail.com?subject=ImMathias%20Email">Email</a></button>
+                    <button id="email" class="btn"><a id="email"  target="_blank" href="https://github.com/MathiasRauls">Github</a></button>
                 </div>
-                <div class="right">
+                <div class="contacts hidden-right">
                     <img src="3d/msg.png" class="contact-msg">
                 </div>
 
             </div>
         </section>
-        <footer class="foot">
-            <div class="foot-cont">
-                <p>Made with HTML, CSS, JavaScript, Blender, & Marvelous Designer.</p>
+        <footer>
+            <div class="footer-container">
+                <a href="https://www.linkedin.com/in/mathias-oshea-rauls/" target="_blank">LinkedIn</a>
+                <a href="https://www.instagram.com/mathias.rauls/" target="_blank">Instagram</a>
+                <a href="https://github.com/MathiasRauls" target="_blank">GitHub</a>
+                <a href="mailto:mathiasrauls.main@gmail.com" target="_blank">Email</a>
+                <a href="tel:9165496969" target="_blank">Call/Text</a>
             </div>
         </footer>
         <script src="script.js"></script>
