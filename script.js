@@ -29,7 +29,9 @@ const moblieMenu = () => {
 
 menu.addEventListener('click', moblieMenu);
 
+
 // Show active menu when scrolling
+
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
     const homeMenu = document.querySelector('#home-pg');
@@ -72,6 +74,7 @@ const highlightMenu = () => {
 window.addEventListener('scroll', highlightMenu);
 window.addEventListener('click', highlightMenu);
 
+
 // Close Mobile Menu When Selection Clicked
 
 const hideMobileMenu = () => {
@@ -85,72 +88,6 @@ const hideMobileMenu = () => {
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
 
-
-// Slow Scroll
-
-let scrollTimeout = null;
-let isScrolling = false;
-
-function smoothScroll() {
-	if (!isScrolling) {
-		isScrolling = true;
-		let scrollPos = window.pageYOffset;
-		window.scrollTo({
-			top: scrollPos,
-			behavior: 'smooth'
-		});
-		scrollTimeout = setTimeout(function() {
-			isScrolling = false;
-		}, 100);
-	}
-}
-
-window.addEventListener('scroll', function() {
-	clearTimeout(scrollTimeout);
-	smoothScroll();
-});
-
-
-// Pop Up Boxes
-
-// const chtrLink = document.querySelector('#chtr');
-// const gitLink = document.querySelector('#git');
-
-// function showAlertChtr() {
-//     var txt = "Chatrbox Site Is Undergoing Maintenance";
-//     alert(txt);
-// }
-
-// function showAlertGit() {
-//     var txt = "Chatrbox Git Is Undergoing Maintenance";
-//     alert(txt);
-// }
-
-// chtrLink.addEventListener('click', showAlertChtr);
-// gitLink.addEventListener('click', showAlertGit);
-
-// Resize Skills
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     let skillElements = document.getElementsByClassName("skill");
-//     let lastClickedSkill = null;
-
-//     for (let i = 0; i < skillElements.length; i++) {
-//         skillElements[i].addEventListener("click", function () {
-//         // If there is a previously clicked skill, reset its padding
-//         if (lastClickedSkill) {
-//             lastClickedSkill.style.padding = "20px";
-//         }
-
-//         // Set the current clicked skill's padding to 60px
-//         this.style.padding = "60px";
-
-
-//         // Update the last clicked skill
-//         lastClickedSkill = this;
-//         });
-//     }
-// });
 
 // Make Skills Move
 
