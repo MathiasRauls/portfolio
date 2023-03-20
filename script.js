@@ -16,7 +16,7 @@ window.addEventListener('load', function() {
     preload.className +=  ' fade';
     setTimeout(function(){
         preload.style.display = 'none';
-    },6000);
+    },600);
 })
 
 
