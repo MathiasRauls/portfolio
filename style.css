@@ -301,6 +301,7 @@ button a {
 }
 
 .about-p span {
+    background-color: yellow;
     font-weight: bold;
     color: #33439b;
 }
@@ -805,6 +806,10 @@ footer {
 
     .hero {
         padding: 100px 0
+    }
+
+    .contact-cont {
+        padding: 0 30px;
     }
 
     /* FOOT */
