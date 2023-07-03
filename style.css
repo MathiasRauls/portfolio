@@ -455,7 +455,7 @@ button a {
 .proj p {
     font-weight: bold;
     padding: 20px 0;
-    text-align: center;
+    text-align: justify;
     -moz-text-align-last: center;
     text-align-last: center;
     text-justify: inter-character;
